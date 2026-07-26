@@ -291,6 +291,10 @@ address {
   font-size: 0.78rem;
   font-weight: 750;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
 }
 
 .section-shell {
