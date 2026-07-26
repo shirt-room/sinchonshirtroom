@@ -445,37 +445,31 @@ address {
   gap: 1.2rem;
 }
 
-.location-guide {
+.map-panel {
   align-self: center;
-  border-top: 2px solid var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
 }
 
-.location-guide > div {
-  min-height: 104px;
-  padding: 1.2rem 0;
-  display: grid;
-  grid-template-columns: 3.5rem 1fr;
-  align-items: center;
-  gap: 1rem;
-  border-bottom: 1px solid var(--line);
-}
-
-.location-guide span {
-  color: var(--accent);
-  font-weight: 800;
-}
-
-.location-guide p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.location-guide strong {
-  margin-bottom: 0.2rem;
+.map-panel iframe {
+  width: 100%;
+  height: 360px;
   display: block;
-  color: var(--ink);
-  font-size: 0.9rem;
+  border: 0;
+}
+
+.map-panel p {
+  margin: 0;
+  padding: 1rem 1.15rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.78rem;
+}
+
+.map-panel p span {
+  color: var(--muted);
+  text-align: right;
 }
 
 .faq {
@@ -758,6 +752,33 @@ address {
   font-weight: 750;
 }
 
+.real-map {
+  margin-top: clamp(4rem, 8vw, 6rem);
+  display: grid;
+  grid-template-columns: 0.45fr 1.55fr;
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: start;
+}
+
+.real-map-heading h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  letter-spacing: -0.055em;
+}
+
+.real-map-heading > p:last-child {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.real-map iframe {
+  width: 100%;
+  height: 440px;
+  display: block;
+  border: 1px solid var(--line);
+}
+
 .direction-list {
   margin-top: clamp(4rem, 8vw, 6rem);
   display: grid;
@@ -893,6 +914,7 @@ address {
   .location,
   .faq,
   .subpage-hero,
+  .real-map,
   .direction-list {
     grid-template-columns: 1fr;
   }
@@ -1028,6 +1050,21 @@ address {
 
   .subpage-hero h1 {
     font-size: clamp(3.4rem, 17vw, 5rem);
+  }
+
+  .map-panel iframe,
+  .real-map iframe {
+    height: 320px;
+  }
+
+  .map-panel p {
+    display: block;
+  }
+
+  .map-panel p span {
+    margin-top: 0.2rem;
+    display: block;
+    text-align: left;
   }
 
   .location-note {
