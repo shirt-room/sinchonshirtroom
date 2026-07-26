@@ -375,6 +375,46 @@ address {
   font-size: 0.8rem;
 }
 
+.visit-guide {
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: clamp(3rem, 8vw, 8rem);
+  background: var(--paper);
+}
+
+.visit-guide-list {
+  border-top: 2px solid var(--ink);
+}
+
+.visit-guide-list article {
+  min-height: 138px;
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 3.8rem 1fr;
+  gap: 1.2rem;
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+}
+
+.visit-guide-list article > p {
+  margin: 0;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.visit-guide-list h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+}
+
+.visit-guide-list div p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.75;
+}
+
 .process {
   display: grid;
   grid-template-columns: 0.72fr 1.28fr;
@@ -414,6 +454,66 @@ address {
   margin: 0;
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.time-guide {
+  color: var(--white);
+  background: var(--dark);
+}
+
+.time-guide .section-heading {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+}
+
+.time-guide .section-heading > p {
+  color: #aab8b2;
+}
+
+.time-guide .section-heading h2 {
+  max-width: 680px;
+  text-align: right;
+}
+
+.time-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #515b56;
+  border-bottom: 1px solid #515b56;
+}
+
+.time-table article {
+  min-height: 240px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #515b56;
+}
+
+.time-table article:last-child {
+  border-right: 0;
+}
+
+.time-table time {
+  margin-bottom: auto;
+  color: #aab8b2;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.time-table h3 {
+  margin: 2rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.time-table p {
+  margin: 0;
+  color: #bfc5c2;
+  font-size: 0.8rem;
+  line-height: 1.75;
 }
 
 .location {
@@ -470,6 +570,87 @@ address {
 .map-panel p span {
   color: var(--muted);
   text-align: right;
+}
+
+.terms {
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: clamp(3rem, 8vw, 8rem);
+  background: var(--paper);
+}
+
+.terms-list {
+  margin: 0;
+  border-top: 2px solid var(--ink);
+}
+
+.terms-list > div {
+  padding: 1.35rem 0;
+  display: grid;
+  grid-template-columns: 0.55fr 1.45fr;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.terms-list dt {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.terms-list dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.83rem;
+  line-height: 1.75;
+}
+
+.message-guide {
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: clamp(3rem, 8vw, 8rem);
+  background: var(--accent-light);
+}
+
+.message-list {
+  border-top: 2px solid var(--ink);
+}
+
+.message-list article {
+  min-height: 98px;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1.5rem;
+  border-bottom: 1px solid #bfc9c3;
+}
+
+.message-list span {
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.message-list p {
+  margin: 0.25rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.message-list button {
+  min-height: 40px;
+  padding: 0.6rem 0.85rem;
+  background: transparent;
+  border: 1px solid var(--accent);
+  font-size: 0.72rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.message-list button:hover {
+  color: var(--white);
+  background: var(--accent);
 }
 
 .faq {
@@ -910,8 +1091,11 @@ address {
   }
 
   .information,
+  .visit-guide,
   .process,
   .location,
+  .terms,
+  .message-guide,
   .faq,
   .subpage-hero,
   .real-map,
@@ -998,6 +1182,42 @@ address {
 
   .process-list li {
     grid-template-columns: 3.2rem 1fr;
+  }
+
+  .time-guide .section-heading {
+    display: block;
+  }
+
+  .time-guide .section-heading h2 {
+    text-align: left;
+  }
+
+  .time-table {
+    grid-template-columns: 1fr;
+  }
+
+  .time-table article {
+    min-height: 190px;
+    border-right: 0;
+    border-bottom: 1px solid #515b56;
+  }
+
+  .time-table article:last-child {
+    border-bottom: 0;
+  }
+
+  .terms-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .message-list article {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .message-list button {
+    width: max-content;
   }
 
   .closing > div:first-child {
