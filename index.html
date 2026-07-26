@@ -8,8 +8,8 @@
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="google-site-verification" content="0HU5V4qWhwZkn0VmaVKD_XRo0TiHrwwFwAfMGNpt5UM">
   <link rel="canonical" href="https://shirt-room.github.io/sinchonshirtroom/">
-  <meta name="theme-color" content="#f4f3ef">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#121212">
+  <meta name="color-scheme" content="dark light">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
@@ -17,17 +17,19 @@
   <meta property="og:title" content="신촌 셔츠룸 | 던힐 김실장">
   <meta property="og:description" content="TC와 소주·맥주 무제한 포함, 1인 방문 가능. 신촌역 도보 2분.">
   <meta property="og:url" content="https://shirt-room.github.io/sinchonshirtroom/">
-  <meta property="og:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-card.svg">
+  <meta property="og:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-hero.jpg">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="신촌 셔츠룸 던힐 안내">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="신촌 셔츠룸 | 던힐 김실장">
   <meta name="twitter:description" content="신촌역 도보 2분. 인원별 요금·포함 구성·방문 순서·문의 방법 안내.">
-  <meta name="twitter:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-card.svg">
+  <meta name="twitter:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-hero.jpg">
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="./site.webmanifest">
+  <link rel="preload" as="image" href="./assets/img/hero-lounge.webp" type="image/webp">
   <link rel="stylesheet" href="./assets/css/site.css">
   <link rel="stylesheet" href="./assets/css/editorial.css">
 
@@ -49,6 +51,11 @@
         "alternateName": "신촌 셔츠룸",
         "url": "https://shirt-room.github.io/sinchonshirtroom/",
         "telephone": "+82-10-2676-2894",
+        "image": [
+          "https://shirt-room.github.io/sinchonshirtroom/assets/img/hero-lounge.webp",
+          "https://shirt-room.github.io/sinchonshirtroom/assets/img/room-interior.webp",
+          "https://shirt-room.github.io/sinchonshirtroom/assets/img/detail-bar.webp"
+        ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "서강로 144 지하1층",
@@ -202,7 +209,17 @@
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="hero hero--photo" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img
+          src="./assets/img/hero-lounge.webp"
+          alt=""
+          width="1920"
+          height="1080"
+          decoding="async"
+          fetchpriority="high"
+        >
+      </div>
       <div class="hero-main">
         <p class="kicker">신촌역 6·7번 출구 · 도보 2분</p>
         <p class="operator">던힐 <span>김실장 안내</span></p>
@@ -246,6 +263,31 @@
       <p>인원 · 도착 시간만 보내주세요</p>
       <a href="tel:01026762894">010&#8209;2676&#8209;2894</a>
       <button type="button" data-copy="Ah88261" data-copy-label="카카오톡 ID Ah88261 복사">카카오톡 Ah88261 복사</button>
+    </section>
+
+    <section class="venue-visuals" aria-label="공간 분위기">
+      <figure>
+        <img
+          src="./assets/img/room-interior.webp"
+          alt="프라이빗 룸 분위기 연출 이미지"
+          width="1400"
+          height="1050"
+          loading="lazy"
+          decoding="async"
+        >
+        <figcaption>프라이빗 룸 · 분위기 연출</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="./assets/img/detail-bar.webp"
+          alt="라운지 디테일 연출 이미지"
+          width="1600"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        >
+        <figcaption>라운지 디테일 · 분위기 연출</figcaption>
+      </figure>
     </section>
 
     <section class="information section-shell" id="information" aria-labelledby="information-title">
