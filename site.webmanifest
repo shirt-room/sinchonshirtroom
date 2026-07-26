@@ -1,0 +1,16 @@
+{
+  "name": "신촌 셔츠룸 · 던힐",
+  "short_name": "신촌 셔츠룸",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e8",
+  "theme_color": "#dfe8d5",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

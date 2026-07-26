@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">р T ° XР</title>
+  <desc id="desc">рэ 6И 7И Ьl ─Ї 2Д, XР @фе H┤</desc>
+  <rect width="1200" height="630" fill="#dfe8d5"/>
+  <rect x="0" y="0" width="32" height="630" fill="#ff623e"/>
+  <rect x="820" y="0" width="380" height="630" fill="#2255a4"/>
+  <line x1="74" y1="86" x2="760" y2="86" stroke="#19241e" stroke-width="2"/>
+  <text x="76" y="66" fill="#2255a4" font-family="Consolas, monospace" font-size="20" font-weight="700" letter-spacing="3">SINCHON ╖ DUNHILL</text>
+  <text x="72" y="278" fill="#19241e" font-family="Georgia, serif" font-size="126" letter-spacing="-10">р</text>
+  <text x="68" y="420" fill="#2255a4" font-family="Georgia, serif" font-size="126" font-style="italic" letter-spacing="-10">T °</text>
+  <text x="76" y="516" fill="#19241e" font-family="Arial, sans-serif" font-size="28" font-weight="700">XР ╖ @фе</text>
+  <text x="76" y="565" fill="#57645c" font-family="Arial, sans-serif" font-size="23">рэ 6╖7И Ьl ─Ї 2Д</text>
+  <circle cx="1010" cy="197" r="94" fill="#ff623e"/>
+  <text x="1010" y="223" text-anchor="middle" fill="#19241e" font-family="Georgia, serif" font-size="78" font-weight="700">2</text>
+  <text x="1010" y="327" text-anchor="middle" fill="#ffffff" font-family="Consolas, monospace" font-size="18" font-weight="700" letter-spacing="2">MIN WALK</text>
+  <line x1="900" y1="384" x2="1120" y2="384" stroke="#ffffff" stroke-width="1" opacity=".65"/>
+  <text x="900" y="430" fill="#ffffff" font-family="Consolas, monospace" font-size="20">OPEN</text>
+  <text x="900" y="468" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">18:0009:00</text>
+  <text x="900" y="527" fill="#ffffff" font-family="Consolas, monospace" font-size="20">CONTACT</text>
+  <text x="900" y="565" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="700">010-2676-2894</text>
+</svg>
