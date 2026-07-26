@@ -387,34 +387,42 @@ img {
 
 /* Venue visuals */
 .venue-visuals {
-  width: min(100%, var(--max));
-  margin: 0 auto;
-  padding: clamp(2rem, 5vw, 3rem) var(--side);
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 0.85rem;
-  background: transparent;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 0.35rem;
+  background: var(--dark);
   border: 0;
 }
 
 .venue-visuals figure {
   margin: 0;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 0;
   background: var(--elev);
+  position: relative;
+  min-height: clamp(240px, 40vw, 460px);
 }
 
 .venue-visuals img {
   width: 100%;
-  height: clamp(200px, 28vw, 380px);
+  height: 100%;
+  min-height: clamp(240px, 40vw, 460px);
   object-fit: cover;
 }
 
 .venue-visuals figcaption {
-  padding: 0.65rem 0.15rem 0;
-  color: var(--muted);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 1rem 0.85rem;
+  color: rgba(243, 238, 230, 0.85);
   font-size: 0.72rem;
   letter-spacing: 0.04em;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
   border: 0;
 }
 
@@ -557,7 +565,65 @@ img {
   gap: 0;
 }
 
-/* Visit guide (merged) */
+/* Compact facts (lean landing) */
+.facts-strip .section-heading {
+  margin-bottom: 1.5rem;
+}
+
+.fact-row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.fact-row li {
+  padding: 1.25rem 1rem 1.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.fact-row li:not(:last-child) {
+  border-right: 1px solid var(--line);
+  padding-right: 1.25rem;
+  margin-right: 0.25rem;
+}
+
+.fact-row strong {
+  display: block;
+  font-size: 0.98rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.fact-row span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.inline-copy {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--accent);
+  background: none;
+  font: inherit;
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
+.inline-copy:hover {
+  color: var(--accent-hot);
+}
+
+/* Visit guide (merged) — kept for template reuse */
 .visit-guide .section-heading {
   max-width: 36rem;
 }
@@ -980,6 +1046,21 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .fact-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fact-row li:not(:last-child) {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 1rem;
+  }
+
+  .fact-row li:nth-child(odd) {
+    padding-right: 1rem;
+    border-right: 1px solid var(--line);
+  }
+
   .location {
     grid-template-columns: 1fr;
   }
@@ -1012,5 +1093,13 @@ img {
 
   .hero-actions .button {
     width: 100%;
+  }
+
+  .fact-row {
+    grid-template-columns: 1fr;
+  }
+
+  .fact-row li:nth-child(odd) {
+    border-right: 0;
   }
 }
