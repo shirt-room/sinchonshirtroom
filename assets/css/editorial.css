@@ -377,6 +377,10 @@ body {
 .contact-ribbon button {
   min-height: 44px;
   padding: 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
   border: 1px solid #4d4a45;
   text-decoration: none;
 }
