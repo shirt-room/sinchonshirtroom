@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>신촌 셔츠룸 | 던힐 김실장 · 신촌역 도보 2분</title>
-  <meta name="description" content="신촌 셔츠룸 던힐 이용 안내. 신촌역 6·7번 출구 도보 2분, 오후 6시부터 오전 9시까지 연중무휴. 1인 가능, 무료 주차, 출발 전 문의 안내.">
+  <meta name="description" content="신촌 셔츠룸 던힐 이용 안내. TC와 소주·맥주 무제한 포함, 1인 방문 가능. 신촌역 도보 2분, 18시부터 익일 9시 운영.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="google-site-verification" content="0HU5V4qWhwZkn0VmaVKD_XRo0TiHrwwFwAfMGNpt5UM">
   <link rel="canonical" href="https://shirt-room.github.io/sinchonshirtroom/">
@@ -15,7 +15,7 @@
   <meta property="og:locale" content="ko_KR">
   <meta property="og:site_name" content="신촌 셔츠룸 · 던힐">
   <meta property="og:title" content="신촌 셔츠룸 | 던힐 김실장">
-  <meta property="og:description" content="신촌역 도보 2분. 출발 전 연락하면 현재 룸 상황과 이용 조건을 먼저 확인할 수 있습니다.">
+  <meta property="og:description" content="TC와 소주·맥주 무제한 포함, 1인 방문 가능. 신촌역 도보 2분.">
   <meta property="og:url" content="https://shirt-room.github.io/sinchonshirtroom/">
   <meta property="og:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-card.svg">
   <meta property="og:image:width" content="1200">
@@ -23,12 +23,13 @@
   <meta property="og:image:alt" content="신촌 셔츠룸 던힐 안내">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="신촌 셔츠룸 | 던힐 김실장">
-  <meta name="twitter:description" content="신촌역 6·7번 출구 도보 2분, 연중무휴 운영 안내.">
+  <meta name="twitter:description" content="신촌역 도보 2분. 인원별 요금·포함 구성·방문 순서·문의 방법 안내.">
   <meta name="twitter:image" content="https://shirt-room.github.io/sinchonshirtroom/assets/img/og-card.svg">
 
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="./site.webmanifest">
   <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="./assets/css/editorial.css">
 
   <script type="application/ld+json">
   {
@@ -57,7 +58,6 @@
         },
         "openingHoursSpecification": [{
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "18:00",
           "closes": "09:00"
         }],
@@ -85,26 +85,18 @@
           },
           {
             "@type": "Question",
-            "name": "이용 구성에는 무엇이 포함되나요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "TC와 소주·맥주 무제한이 포함됩니다. 인원과 이용 조건에 따른 최종 금액은 방문 전에 안내합니다."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "주차가 가능한가요?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "무료 주차가 가능합니다. 차량으로 방문할 예정이라면 출발 전에 알려주세요."
-            }
-          },
-          {
-            "@type": "Question",
             "name": "이용 금액은 어디서 확인하나요?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "인원과 이용 조건에 따른 최종 금액은 방문 전에 안내합니다."
+              "text": "방문 인원과 이용 조건을 알려주시면 출발 전에 포함 구성과 함께 안내합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "이용 구성에는 무엇이 포함되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "표시된 인원별 요금에는 TC와 소주·맥주 무제한이 포함됩니다. 양주와 안주는 필요한 경우 문의 시 구성과 금액을 확인해 주세요."
             }
           },
           {
@@ -112,7 +104,15 @@
             "name": "어떤 결제 방법을 이용할 수 있나요?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "현금·카드·계좌이체가 가능합니다."
+              "text": "현금·카드·계좌이체가 가능하며 안내와 초이스를 확인한 뒤 결제합니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "초이스와 결제는 어떤 순서인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "입장 후 안내와 초이스를 먼저 확인하고 그다음 결제를 진행합니다."
             }
           },
           {
@@ -120,7 +120,7 @@
             "name": "영업시간은 어떻게 되나요?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "연중무휴로 매일 오후 6시부터 다음 날 오전 9시까지 운영합니다."
+              "text": "운영시간은 오후 6시부터 다음 날 오전 9시까지입니다."
             }
           },
           {
@@ -129,6 +129,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "서울특별시 마포구 서강로 144 지하1층입니다. 신촌역 6번 또는 7번 출구에서 도보 약 2분입니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "차량으로 방문해도 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "차량 방문과 주차가 가능합니다. 출발 전에 차량 방문 여부와 차량 대수를 함께 알려주세요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "픽업을 요청할 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "픽업은 제공하지 않습니다. 신촌역에서 도보로 이동하거나 택시·자가용으로 주소지까지 와주세요."
             }
           },
           {
@@ -145,6 +161,22 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "가능합니다. 다만 희망 시간이 정해져 있다면 출발 전에 연락하는 편이 현재 상황을 확인하기 좋습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "여러 명이 방문해도 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "인원 제한은 따로 두지 않지만 룸 상황 확인이 필요합니다. 확정 인원과 도착 시간을 출발 전에 알려주세요."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "만 19세 미만도 이용할 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "만 19세 미만은 이용할 수 없습니다. 연령 확인이 필요할 수 있으므로 신분을 확인할 수 있는 신분증을 준비하세요."
             }
           }
         ]
@@ -176,8 +208,8 @@
         <p class="operator">던힐 <span>김실장 안내</span></p>
         <h1 id="hero-title">신촌 셔츠룸</h1>
         <p class="hero-lead">
-          출발 전에 인원과 도착 시간을 알려주세요.
-          현재 룸 상황과 이용 조건을 확인한 뒤 필요한 내용만 정확하게 안내합니다.
+          인원별 요금과 포함 구성, 방문 순서, 위치를 한 페이지에서 확인할 수 있습니다.
+          출발 전에 인원과 도착 시간을 알려주시면 현재 룸 상황과 필요한 안내를 함께 확인합니다.
         </p>
         <div class="hero-actions" role="group" aria-label="빠른 문의">
           <a class="button button-primary" href="tel:01026762894">김실장에게&nbsp;전화</a>
@@ -203,7 +235,7 @@
           </div>
           <div>
             <dt>주차</dt>
-            <dd>무료 주차 가능</dd>
+            <dd>차량 방문 · 주차 가능</dd>
           </div>
         </dl>
         <p>도착 5분 전 연락도 가능합니다.</p>
@@ -237,16 +269,16 @@
         </div>
         <div>
           <dt>결제</dt>
-          <dd><strong>현금 · 카드 · 계좌이체</strong><span>방문 전 최종 조건 안내</span></dd>
+          <dd><strong>현금 · 카드 · 계좌이체</strong><span>초이스 후 결제</span></dd>
         </div>
         <div>
-          <dt>이용 시간</dt>
-          <dd><strong>1타임 기준</strong><span>연장도 동일한 타임 단위</span></dd>
+          <dt>이동 안내</dt>
+          <dd><strong>신촌역 도보 2분</strong><span>픽업은 제공하지 않음</span></dd>
         </div>
       </dl>
       <p class="information-note">
-        인원과 이용 조건에 따른 최종 금액은 방문 전에 먼저 안내드립니다.
-        출발 전 연락하면 현재 룸 상황과 함께 확인할 수 있습니다.
+        방문 인원과 이용 조건을 알려주시면 출발 전에 금액과 포함 구성을 안내합니다.
+        양주나 안주가 필요하면 문의할 때 구성과 금액을 별도로 확인해 주세요.
       </p>
     </section>
 
@@ -261,21 +293,35 @@
           <p>01</p>
           <div>
             <h3>혼자 방문할 때</h3>
-            <p>1인 방문도 가능합니다. 도착 예정 시간과 처음 방문인지 여부만 알려주시면 현재 이용 가능 여부와 구성을 안내합니다.</p>
+            <p>1인 방문도 가능합니다. 도착 예정 시간과 처음 방문인지 여부를 알려주시면 현재 이용 가능 여부와 포함 구성을 함께 확인할 수 있습니다.</p>
           </div>
         </article>
         <article>
           <p>02</p>
           <div>
-            <h3>친구·소규모 모임</h3>
-            <p>확정된 인원과 대략적인 시간을 보내주세요. 이동 중 인원이 달라지면 도착 전에 최종 인원만 다시 알려주시면 됩니다.</p>
+            <h3>두 명이 함께 방문할 때</h3>
+            <p>두 명의 도착 시간이 같다면 대표 한 분이 인원과 시간을 보내주시면 됩니다. 출발 전에 이용 금액과 포함 구성을 함께 확인하세요.</p>
           </div>
         </article>
         <article>
           <p>03</p>
           <div>
-            <h3>여러 명이 따로 도착할 때</h3>
-            <p>대표 한 분이 연락하고 나머지 일행은 신촌역이나 건물 앞에서 합류하면 안내가 단순합니다. 차량이 있다면 함께 말씀해 주세요.</p>
+            <h3>여러 명이 방문할 때</h3>
+            <p>인원 제한은 따로 두지 않지만 현재 룸 상황을 확인해야 합니다. 확정 인원과 예상 도착 시간을 먼저 보내고, 인원이 바뀌면 출발 전에 다시 알려주세요.</p>
+          </div>
+        </article>
+        <article>
+          <p>04</p>
+          <div>
+            <h3>일행이 따로 도착할 때</h3>
+            <p>대표 한 분이 먼저 연락하고 나머지 일행의 도착 순서를 알려주세요. 주소는 서강로 144이며, 신촌역 6번·7번 출구에서 도보 약 2분입니다.</p>
+          </div>
+        </article>
+        <article>
+          <p>05</p>
+          <div>
+            <h3>차량으로 방문할 때</h3>
+            <p>차량 방문과 주차가 가능합니다. 출발 전에 차량 방문 여부와 차량 대수를 전달하고, 구체적인 진입 안내는 도착 전에 확인해 주세요.</p>
           </div>
         </article>
       </div>
@@ -284,28 +330,42 @@
     <section class="process section-shell" aria-labelledby="process-title">
       <div class="section-heading">
         <p>방문 순서</p>
-        <h2 id="process-title">세 단계면 충분합니다</h2>
+        <h2 id="process-title">문의부터 결제까지<br>순서대로 확인하세요</h2>
       </div>
       <ol class="process-list">
         <li>
           <span>01</span>
           <div>
-            <h3>인원과 시간 전달</h3>
-            <p>“2명, 오늘 11시 도착”처럼 짧게 보내주세요.</p>
+            <h3>인원·도착 시간 전달</h3>
+            <p>“2명, 오늘 23시 도착”처럼 방문 인원과 예상 시간을 전화·카톡·텔레그램으로 알려주세요.</p>
           </div>
         </li>
         <li>
           <span>02</span>
           <div>
-            <h3>현재 상황 확인</h3>
-            <p>룸 상황과 이용 구성, 최종 금액을 방문 전에 안내합니다.</p>
+            <h3>요금·포함 구성 확인</h3>
+            <p>방문 인원에 따른 금액과 포함 구성을 확인합니다. TC와 소주·맥주 무제한이 포함되며 별도 구성이 필요하면 이때 함께 문의하세요.</p>
           </div>
         </li>
         <li>
           <span>03</span>
           <div>
-            <h3>도착 후 결정</h3>
-            <p>입장 후 안내와 초이스를 확인한 다음 이용을 결정할 수 있습니다.</p>
+            <h3>주소 확인 후 이동</h3>
+            <p>서울 마포구 서강로 144 지하1층으로 이동합니다. 신촌역 6번 또는 7번 출구에서 도보 약 2분이며 픽업은 제공하지 않습니다.</p>
+          </div>
+        </li>
+        <li>
+          <span>04</span>
+          <div>
+            <h3>도착 전 입장 안내 확인</h3>
+            <p>건물 도착 5분 전이라도 다시 연락하면 현재 룸 상황과 입장에 필요한 내용을 확인할 수 있습니다.</p>
+          </div>
+        </li>
+        <li>
+          <span>05</span>
+          <div>
+            <h3>안내·초이스 후 결제</h3>
+            <p>입장 후 안내와 초이스를 확인한 다음 결제합니다. 결제는 현금·카드·계좌이체 중 선택할 수 있습니다.</p>
           </div>
         </li>
       </ol>
@@ -345,7 +405,7 @@
           서울특별시 마포구 서강로 144<br>
           지하 1층 · 하나은행 인근
         </address>
-        <p>2호선 신촌역 6번 또는 7번 출구에서 도보 약 2분입니다. 차량 방문 시 무료 주차가 가능합니다.</p>
+        <p>2호선 신촌역 6번 또는 7번 출구에서 도보 약 2분입니다. 차량 방문과 주차가 가능합니다.</p>
         <div class="location-actions">
           <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EC%84%9C%EA%B0%95%EB%A1%9C+144" target="_blank" rel="noopener noreferrer">지도에서 주소 보기</a>
           <a class="text-link" href="./location/">상세 동선 확인</a>
@@ -372,21 +432,67 @@
       <dl class="terms-list">
         <div>
           <dt>TC 포함</dt>
-          <dd>기본 이용 구성에 TC가 포함됩니다. 인원별 최종 이용 조건은 방문 전에 안내합니다.</dd>
+          <dd>표시된 인원별 요금에 TC가 포함됩니다. 요금을 비교할 때 TC를 별도 항목으로 다시 더하지 않아도 됩니다.</dd>
         </div>
         <div>
           <dt>소주·맥주 무제한</dt>
-          <dd>기본 이용 중 소주와 맥주가 무제한으로 제공됩니다. 양주와 안주 구성은 필요할 때 문의해 주세요.</dd>
+          <dd>기본 이용 구성에 소주와 맥주 무제한이 포함됩니다. 양주나 안주가 필요하면 문의할 때 별도 구성과 금액을 확인하세요.</dd>
         </div>
         <div>
-          <dt>1타임·연장</dt>
-          <dd>기본 이용은 1타임 기준이며, 연장도 동일한 타임 단위로 안내됩니다. 연장 여부는 이용 중 확인할 수 있습니다.</dd>
+          <dt>초이스 후 결제</dt>
+          <dd>입장 안내와 초이스를 확인한 뒤 결제를 진행합니다. 결제 수단은 현금·카드·계좌이체를 이용할 수 있습니다.</dd>
         </div>
         <div>
-          <dt>안내·초이스 후 결정</dt>
-          <dd>입장 후 안내와 초이스를 확인한 다음 이용을 결정할 수 있습니다. 처음 방문이라면 미리 말씀해 주세요.</dd>
+          <dt>예약 필수 아님</dt>
+          <dd>복잡한 예약 절차는 없지만, 출발 전에 연락하면 현재 룸 상황을 확인하고 헛걸음을 줄일 수 있습니다.</dd>
+        </div>
+        <div>
+          <dt>픽업 불가</dt>
+          <dd>별도 픽업은 제공하지 않습니다. 신촌역에서 도보로 이동하거나 택시·자가용으로 주소지까지 와주세요.</dd>
+        </div>
+        <div>
+          <dt>성인만 이용</dt>
+          <dd>만 19세 미만은 이용할 수 없습니다. 연령 확인이 필요할 수 있으므로 신분을 확인할 수 있는 신분증을 준비하세요.</dd>
         </div>
       </dl>
+    </section>
+
+    <section class="preparation section-shell" aria-labelledby="preparation-title">
+      <div class="section-heading">
+        <p>출발 전 준비</p>
+        <h2 id="preparation-title">처음 방문이라면<br>이 순서로 정리하세요</h2>
+        <span>문의 전에 네 가지를 정하면 안내가 짧고 정확해집니다.</span>
+      </div>
+      <div class="preparation-content">
+        <ol>
+          <li>
+            <strong>방문 인원을 확정합니다.</strong>
+            <p>혼자 방문하는지, 두 명인지, 여러 명인지 확인합니다. 이동 중 인원이 바뀌면 최종 인원을 다시 알려주세요.</p>
+          </li>
+          <li>
+            <strong>도착 예정 시간을 정합니다.</strong>
+            <p>정확한 분 단위가 아니어도 됩니다. “30분 후” 또는 “오늘 23시”처럼 대략적인 시간만 전달해도 됩니다.</p>
+          </li>
+          <li>
+            <strong>이동 수단을 확인합니다.</strong>
+            <p>도보·택시·자가용 중 어떤 방법으로 오는지 정하세요. 차량 방문이라면 차량 대수도 함께 알려주세요.</p>
+          </li>
+          <li>
+            <strong>필요한 구성을 질문합니다.</strong>
+            <p>기본 요금에는 TC와 소주·맥주 무제한이 포함됩니다. 양주·안주가 필요하면 출발 전에 구성과 금액을 확인하세요.</p>
+          </li>
+          <li>
+            <strong>신분증과 귀가편을 준비합니다.</strong>
+            <p>성인만 이용할 수 있습니다. 심야 방문이라면 신분증과 지하철 막차 또는 택시 귀가 방법을 함께 확인하세요.</p>
+          </li>
+        </ol>
+        <aside aria-label="주소 요약">
+          <p>주소</p>
+          <strong>서울특별시 마포구<br>서강로 144 지하1층</strong>
+          <span>신촌역 6·7번 출구 도보 약 2분</span>
+          <a href="./location/">지하철·차량 상세 동선 확인</a>
+        </aside>
+      </div>
     </section>
 
     <section class="message-guide section-shell" aria-labelledby="message-guide-title">
@@ -398,17 +504,17 @@
       <div class="message-list">
         <article>
           <div>
-            <span>지금 출발</span>
-            <p>2명 / 지금 출발 / 신촌역 20분 후 도착</p>
+            <span>1인 방문</span>
+            <p>1명 / 처음 방문 / 오늘 22시 도착</p>
           </div>
-          <button type="button" data-copy="2명 / 지금 출발 / 신촌역 20분 후 도착" data-copy-label="지금 출발 문의 문구 복사">문구 복사</button>
+          <button type="button" data-copy="1명 / 처음 방문 / 오늘 22시 도착" data-copy-label="1인 방문 문의 문구 복사">문구 복사</button>
         </article>
         <article>
           <div>
-            <span>시간 지정</span>
-            <p>3명 / 오늘 23시 / 카드 결제 예정</p>
+            <span>2인 방문</span>
+            <p>2명 / 오늘 23시 / 신촌역에서 도보 이동</p>
           </div>
-          <button type="button" data-copy="3명 / 오늘 23시 / 카드 결제 예정" data-copy-label="시간 지정 문의 문구 복사">문구 복사</button>
+          <button type="button" data-copy="2명 / 오늘 23시 / 신촌역에서 도보 이동" data-copy-label="2인 방문 문의 문구 복사">문구 복사</button>
         </article>
         <article>
           <div>
@@ -416,6 +522,20 @@
             <p>2명 / 차량 1대 / 30분 후 도착</p>
           </div>
           <button type="button" data-copy="2명 / 차량 1대 / 30분 후 도착" data-copy-label="차량 방문 문의 문구 복사">문구 복사</button>
+        </article>
+        <article>
+          <div>
+            <span>별도 구성 확인</span>
+            <p>2명 / 오늘 24시 / 양주·안주 구성 문의</p>
+          </div>
+          <button type="button" data-copy="2명 / 오늘 24시 / 양주·안주 구성 문의" data-copy-label="별도 구성 문의 문구 복사">문구 복사</button>
+        </article>
+        <article>
+          <div>
+            <span>일행이 따로 도착</span>
+            <p>3명 / 1명 먼저 도착 / 나머지 20분 후 합류</p>
+          </div>
+          <button type="button" data-copy="3명 / 1명 먼저 도착 / 나머지 20분 후 합류" data-copy-label="일행 합류 문의 문구 복사">문구 복사</button>
         </article>
       </div>
     </section>
@@ -427,28 +547,32 @@
       </div>
       <div class="faq-list">
         <details open>
-          <summary>예약 없이 방문해도 되나요?</summary>
-          <p>가능합니다. 다만 출발 전이나 도착 5분 전이라도 연락하면 현재 상황을 먼저 확인할 수 있습니다.</p>
+          <summary>신촌 셔츠룸은 예약이 필수인가요?</summary>
+          <p>사전 예약은 필수가 아닙니다. 출발 전이나 도착 5분 전이라도 연락하면 현재 룸 상황과 이용 조건을 먼저 확인할 수 있습니다.</p>
         </details>
         <details>
-          <summary>혼자 방문할 수 있나요?</summary>
-          <p>네, 1인 방문도 가능합니다. 인원과 도착 예정 시간을 알려주세요.</p>
+          <summary>1인 방문도 가능한가요?</summary>
+          <p>네, 1인 방문도 가능합니다. 방문 인원과 도착 예정 시간을 알려주시면 안내합니다.</p>
         </details>
         <details>
           <summary>이용 금액은 어디서 확인하나요?</summary>
-          <p>인원과 이용 조건에 따른 최종 금액은 방문 전에 안내합니다.</p>
+          <p>방문 인원과 이용 조건을 알려주시면 출발 전에 포함 구성과 함께 안내합니다.</p>
         </details>
         <details>
-          <summary>기본 이용에 무엇이 포함되나요?</summary>
-          <p>TC와 소주·맥주 무제한이 포함됩니다. 양주와 안주 구성은 문의 시 확인할 수 있습니다.</p>
+          <summary>이용 구성에는 무엇이 포함되나요?</summary>
+          <p>표시된 인원별 요금에는 TC와 소주·맥주 무제한이 포함됩니다. 양주와 안주는 필요한 경우 문의 시 구성과 금액을 확인해 주세요.</p>
         </details>
         <details>
           <summary>어떤 결제 방법을 이용할 수 있나요?</summary>
-          <p>현금·카드·계좌이체가 가능합니다.</p>
+          <p>현금·카드·계좌이체가 가능하며 안내와 초이스를 확인한 뒤 결제합니다.</p>
+        </details>
+        <details>
+          <summary>초이스와 결제는 어떤 순서인가요?</summary>
+          <p>입장 후 안내와 초이스를 먼저 확인하고 그다음 결제를 진행합니다.</p>
         </details>
         <details>
           <summary>영업시간은 어떻게 되나요?</summary>
-          <p>연중무휴로 매일 오후 6시부터 다음 날 오전 9시까지 운영합니다.</p>
+          <p>운영시간은 오후 6시부터 다음 날 오전 9시까지입니다.</p>
         </details>
         <details>
           <summary>정확한 위치는 어디인가요?</summary>
@@ -456,7 +580,11 @@
         </details>
         <details>
           <summary>차량으로 방문해도 되나요?</summary>
-          <p>무료 주차가 가능합니다. 차량으로 방문할 경우 출발 전에 차량 대수를 함께 알려주세요.</p>
+          <p>차량 방문과 주차가 가능합니다. 출발 전에 차량 방문 여부와 차량 대수를 함께 알려주세요.</p>
+        </details>
+        <details>
+          <summary>픽업을 요청할 수 있나요?</summary>
+          <p>픽업은 제공하지 않습니다. 신촌역에서 도보로 이동하거나 택시·자가용으로 주소지까지 와주세요.</p>
         </details>
         <details>
           <summary>문의할 때 무엇을 보내야 하나요?</summary>
@@ -465,6 +593,14 @@
         <details>
           <summary>도착 5분 전에 연락해도 되나요?</summary>
           <p>가능합니다. 다만 희망 시간이 정해져 있다면 출발 전에 연락하는 편이 현재 상황을 확인하기 좋습니다.</p>
+        </details>
+        <details>
+          <summary>여러 명이 방문해도 되나요?</summary>
+          <p>인원 제한은 따로 두지 않지만 룸 상황 확인이 필요합니다. 확정 인원과 도착 시간을 출발 전에 알려주세요.</p>
+        </details>
+        <details>
+          <summary>만 19세 미만도 이용할 수 있나요?</summary>
+          <p>만 19세 미만은 이용할 수 없습니다. 연령 확인이 필요할 수 있으므로 신분을 확인할 수 있는 신분증을 준비하세요.</p>
         </details>
       </div>
     </section>
@@ -488,7 +624,7 @@
       <p>서울특별시 마포구 서강로 144 지하1층</p>
     </div>
     <div>
-      <p>연중무휴 18:00—09:00</p>
+      <p>운영시간 18:00—09:00</p>
       <p>만 19세 미만은 이용할 수 없습니다.</p>
     </div>
   </footer>
