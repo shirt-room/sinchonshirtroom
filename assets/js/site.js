@@ -44,4 +44,44 @@
       showToast(`복사하지 못했습니다: ${text}`);
     }
   });
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  if (!reduceMotion && "IntersectionObserver" in window) {
+    const reveals = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 },
+    );
+    reveals.forEach((el) => io.observe(el));
+  } else {
+    document.querySelectorAll(".reveal").forEach((el) => el.classList.add("is-in"));
+  }
+
+  if (!reduceMotion) {
+    const heroImg = document.querySelector(".hero-media img");
+    if (heroImg) {
+      let ticking = false;
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (ticking) return;
+          ticking = true;
+          window.requestAnimationFrame(() => {
+            const y = Math.min(window.scrollY, 480);
+            heroImg.style.transform = `scale(1.04) translate3d(0, ${y * 0.08}px, 0)`;
+            ticking = false;
+          });
+        },
+        { passive: true },
+      );
+    }
+  }
 })();

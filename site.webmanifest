@@ -4,8 +4,8 @@
   "lang": "ko-KR",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f3ef",
-  "theme_color": "#202724",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
   "icons": [
     {
       "src": "./favicon.svg",
