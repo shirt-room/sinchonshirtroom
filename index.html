@@ -7,7 +7,7 @@
   <meta name="description" content="신촌 셔츠룸 던힐 이용 안내. 신촌역 6·7번 출구 도보 2분, 오후 6시부터 오전 9시까지 연중무휴. 1인 가능, 무료 주차, 출발 전 문의 안내.">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="https://shirt-room.github.io/sinchonshirtroom/">
-  <meta name="theme-color" content="#f1efe9">
+  <meta name="theme-color" content="#f4f3ef">
   <meta name="color-scheme" content="light">
 
   <meta property="og:type" content="website">
@@ -54,17 +54,12 @@
           "addressRegion": "서울특별시",
           "addressCountry": "KR"
         },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday", "Tuesday", "Wednesday", "Thursday",
-              "Friday", "Saturday", "Sunday"
-            ],
-            "opens": "18:00",
-            "closes": "09:00"
-          }
-        ],
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "18:00",
+          "closes": "09:00"
+        }],
         "paymentAccepted": "현금, 카드, 계좌이체"
       },
       {
@@ -114,12 +109,12 @@
 
   <header class="site-header">
     <a class="wordmark" href="./" aria-label="신촌 셔츠룸 홈">
-      <span>DUNHILL</span>
-      <strong>던힐·김실장</strong>
+      <strong>신촌 셔츠룸</strong>
+      <span>던힐 · 김실장</span>
     </a>
     <nav class="top-nav" aria-label="주요 메뉴">
-      <a href="#guide">이용 안내</a>
-      <a href="#route">오시는 길</a>
+      <a href="#information">이용 안내</a>
+      <a href="#location">위치</a>
       <a href="#faq">질문</a>
     </nav>
     <a class="header-call" href="tel:01026762894">전화&nbsp;문의</a>
@@ -127,215 +122,185 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="frequency">SINCHON · DUNHILL</p>
-        <p class="sub-brand">던힐 <span aria-hidden="true">×</span> 김실장</p>
-        <h1 id="hero-title">신촌<br><em>셔츠룸</em></h1>
+      <div class="hero-main">
+        <p class="kicker">신촌역 6·7번 출구 · 도보 2분</p>
+        <p class="operator">던힐 <span>김실장 안내</span></p>
+        <h1 id="hero-title">신촌 셔츠룸</h1>
         <p class="hero-lead">
-          신촌역에서 도보 2분. 출발 전에 인원과 도착 시간만 알려주시면
-          현재 룸 상황과 이용 조건을 먼저 안내해 드립니다.
+          출발 전에 인원과 도착 시간을 알려주세요.
+          현재 룸 상황과 이용 조건을 확인한 뒤 필요한 내용만 정확하게 안내합니다.
         </p>
         <div class="hero-actions" role="group" aria-label="빠른 문의">
           <a class="button button-primary" href="tel:01026762894">김실장에게&nbsp;전화</a>
-          <button class="button button-secondary" type="button" data-copy="Ah88261" data-copy-label="카톡 ID 복사">
-            카톡 ID 복사
-          </button>
+          <button class="button button-secondary" type="button" data-copy="Ah88261" data-copy-label="카톡 ID 복사">카톡 ID 복사</button>
+          <a class="text-link" href="https://t.me/wnsrb001" target="_blank" rel="noopener noreferrer">텔레그램 문의</a>
         </div>
       </div>
 
-      <aside class="on-air" aria-label="핵심 운영 안내">
-        <div class="on-air-head">
-          <span class="signal" aria-hidden="true"></span>
-          <strong>VISIT INFORMATION</strong>
-        </div>
+      <aside class="hero-summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">방문 전 핵심 안내</h2>
         <dl>
           <div>
-            <dt>OPEN</dt>
+            <dt>운영</dt>
             <dd>매일 18:00—09:00</dd>
           </div>
           <div>
-            <dt>WALK</dt>
-            <dd>신촌역 6·7번 출구 2분</dd>
+            <dt>위치</dt>
+            <dd>신촌역 6·7번 출구 도보 2분</dd>
           </div>
           <div>
-            <dt>VISIT</dt>
+            <dt>방문</dt>
             <dd>1인 가능 · 예약 필수 아님</dd>
           </div>
           <div>
-            <dt>PARK</dt>
-            <dd>무료 주차</dd>
+            <dt>주차</dt>
+            <dd>무료 주차 가능</dd>
           </div>
         </dl>
-        <p>금·토 20시—익일 06시는 문의가 겹칠 수 있어 출발 전에 연락해 주세요.</p>
+        <p>도착 5분 전 연락도 가능합니다.</p>
       </aside>
     </section>
 
-    <section class="notice-strip" aria-label="방문 전 안내">
-      <p>도착 5분 전이라도 괜찮습니다.</p>
-      <p>현재 룸 상황 · 이용 구성 · 최종 금액을 먼저 확인하세요.</p>
+    <section class="contact-ribbon" aria-label="연락처">
+      <p>인원 · 도착 시간만 보내주세요</p>
+      <a href="tel:01026762894">010&#8209;2676&#8209;2894</a>
+      <button type="button" data-copy="Ah88261" data-copy-label="카카오톡 ID Ah88261 복사">카카오톡 Ah88261 복사</button>
     </section>
 
-    <section class="editorial-section" id="guide" aria-labelledby="guide-title">
-      <div class="section-index">
-        <span>01</span>
-        <p>VISIT<br>GUIDE</p>
+    <section class="information section-shell" id="information" aria-labelledby="information-title">
+      <div class="section-heading">
+        <p>이용 안내</p>
+        <h2 id="information-title">방문 전에 확인할 내용</h2>
+        <span>별도 가입이나 복잡한 예약 절차는 없습니다.</span>
       </div>
-      <div class="section-main">
-        <p class="eyebrow">처음 방문해도 짧게</p>
-        <h2 id="guide-title">무엇을 알려주면 되나요?</h2>
-        <p class="section-intro">
-          긴 설명은 필요 없습니다. 인원과 도착 예정 시간만 보내면 현재 이용 가능 여부부터 확인할 수 있습니다.
-        </p>
-        <ol class="cue-list">
-          <li>
-            <span>01:00</span>
-            <div>
-              <h3>인원·도착 시간 연락</h3>
-              <p>“2명 / 오늘 11시쯤 도착”처럼 한 줄이면 충분합니다.</p>
-            </div>
-          </li>
-          <li>
-            <span>02:00</span>
-            <div>
-              <h3>현재 상황과 이용 금액 확인</h3>
-              <p>출발 전에 룸 상황과 인원·이용 조건에 따른 최종 금액을 안내합니다.</p>
-            </div>
-          </li>
-          <li>
-            <span>03:00</span>
-            <div>
-              <h3>도착 후 안내·초이스 확인</h3>
-              <p>입장 후 안내와 초이스를 확인한 다음 이용을 결정할 수 있습니다.</p>
-            </div>
-          </li>
-        </ol>
-      </div>
-      <aside class="message-sample" aria-label="문의 예시">
-        <p>빠른 문의 예시</p>
-        <blockquote>“2명 / 오늘 23시 / 신촌역 도착 예정입니다.”</blockquote>
-        <button type="button" data-copy="2명 / 오늘 23시 / 신촌역 도착 예정입니다." data-copy-label="문의 문구 복사">
-          문의 문구 복사
-        </button>
-      </aside>
+      <dl class="information-list">
+        <div>
+          <dt>이용 구성</dt>
+          <dd><strong>TC 포함</strong><span>소주·맥주 무제한</span></dd>
+        </div>
+        <div>
+          <dt>이용 인원</dt>
+          <dd><strong>1인부터 가능</strong><span>인원 제한 없음</span></dd>
+        </div>
+        <div>
+          <dt>예약</dt>
+          <dd><strong>사전 예약 필수 아님</strong><span>출발 전 연락 권장</span></dd>
+        </div>
+        <div>
+          <dt>결제</dt>
+          <dd><strong>현금 · 카드 · 계좌이체</strong><span>방문 전 최종 조건 안내</span></dd>
+        </div>
+        <div>
+          <dt>이용 시간</dt>
+          <dd><strong>1타임 기준</strong><span>연장도 동일한 타임 단위</span></dd>
+        </div>
+      </dl>
+      <p class="information-note">
+        인원과 이용 조건에 따른 최종 금액은 방문 전에 먼저 안내드립니다.
+        출발 전 연락하면 현재 룸 상황과 함께 확인할 수 있습니다.
+      </p>
     </section>
 
-    <section class="program-grid" aria-labelledby="program-title">
-      <div class="program-heading">
-        <p class="eyebrow">이용 구성</p>
-        <h2 id="program-title">확인할 내용만<br>분명하게</h2>
+    <section class="process section-shell" aria-labelledby="process-title">
+      <div class="section-heading">
+        <p>방문 순서</p>
+        <h2 id="process-title">세 단계면 충분합니다</h2>
       </div>
-      <div class="program-item">
-        <span>포함</span>
-        <h3>TC 포함</h3>
-        <p>이용 구성에 TC가 포함됩니다.</p>
-      </div>
-      <div class="program-item">
-        <span>무제한</span>
-        <h3>소주·맥주 무제한</h3>
-        <p>기본 이용 중 소주와 맥주가 무제한으로 제공됩니다.</p>
-      </div>
-      <div class="program-item">
-        <span>결제</span>
-        <h3>세 가지 결제</h3>
-        <p>현금·카드·계좌이체로 결제할 수 있습니다.</p>
-      </div>
-      <div class="program-item">
-        <span>시간</span>
-        <h3>1타임 기준</h3>
-        <p>기본 이용과 연장은 동일한 타임 단위로 안내됩니다.</p>
-      </div>
+      <ol class="process-list">
+        <li>
+          <span>01</span>
+          <div>
+            <h3>인원과 시간 전달</h3>
+            <p>“2명, 오늘 11시 도착”처럼 짧게 보내주세요.</p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <h3>현재 상황 확인</h3>
+            <p>룸 상황과 이용 구성, 최종 금액을 방문 전에 안내합니다.</p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <h3>도착 후 결정</h3>
+            <p>입장 후 안내와 초이스를 확인한 다음 이용을 결정할 수 있습니다.</p>
+          </div>
+        </li>
+      </ol>
     </section>
 
-    <section class="route-section" id="route" aria-labelledby="route-title">
-      <div class="route-map" aria-hidden="true">
-        <span class="station station-six">6</span>
-        <span class="station station-seven">7</span>
-        <span class="route-line"></span>
-        <span class="landmark">하나은행</span>
-        <span class="destination">B1<br>DUNHILL</span>
-      </div>
-      <div class="route-copy">
-        <p class="eyebrow">오시는 길</p>
-        <h2 id="route-title">신촌역에서<br>도보 2분</h2>
+    <section class="location section-shell" id="location" aria-labelledby="location-title">
+      <div class="location-copy">
+        <div class="section-heading">
+          <p>오시는 길</p>
+          <h2 id="location-title">신촌역에서<br>걸어서 2분</h2>
+        </div>
         <address>
           서울특별시 마포구 서강로 144<br>
           지하 1층 · 하나은행 인근
         </address>
-        <p>
-          2호선 신촌역 6번 또는 7번 출구에서 도보로 약 2분입니다.
-          차량으로 방문할 경우 무료 주차가 가능하니 출발 전 차량 방문 여부를 알려주세요.
-        </p>
-        <div class="route-actions">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EC%84%9C%EA%B0%95%EB%A1%9C+144" target="_blank" rel="noopener noreferrer">지도에서 주소 보기</a>
-          <a href="./location/">상세 동선 확인</a>
+        <p>2호선 신촌역 6번 또는 7번 출구에서 도보 약 2분입니다. 차량 방문 시 무료 주차가 가능합니다.</p>
+        <div class="location-actions">
+          <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&amp;query=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%A7%88%ED%8F%AC%EA%B5%AC+%EC%84%9C%EA%B0%95%EB%A1%9C+144" target="_blank" rel="noopener noreferrer">지도에서 주소 보기</a>
+          <a class="text-link" href="./location/">상세 동선 확인</a>
+        </div>
+      </div>
+      <div class="location-guide" role="group" aria-label="신촌역 도보 동선">
+        <div>
+          <span>01</span>
+          <p><strong>신촌역 하차</strong>2호선 6·7번 출구 방향</p>
+        </div>
+        <div>
+          <span>02</span>
+          <p><strong>서강로 이동</strong>하나은행 인근까지 약 2분</p>
+        </div>
+        <div>
+          <span>03</span>
+          <p><strong>도착 전 연락</strong>건물 입장 안내 확인</p>
         </div>
       </div>
     </section>
 
-    <section class="hours-section" aria-labelledby="hours-title">
-      <div>
-        <p class="eyebrow">운영 시간</p>
-        <h2 id="hours-title">저녁 여섯 시부터<br>다음 날 아홉 시까지</h2>
-      </div>
-      <div class="hours-copy">
-        <p>연중무휴로 운영합니다. 사전 예약은 필수가 아니지만, 출발 전에 연락하면 대기 시간을 줄이고 현재 상황을 확인하기 좋습니다.</p>
-        <dl>
-          <div><dt>평일</dt><dd>18:00—09:00</dd></div>
-          <div><dt>금·토 피크</dt><dd>20:00—06:00</dd></div>
-          <div><dt>권장 연락</dt><dd>출발 전</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="faq-section" id="faq" aria-labelledby="faq-title">
-      <div class="faq-heading">
-        <p class="eyebrow">짧은 답</p>
-        <h2 id="faq-title">신촌 셔츠룸 FAQ</h2>
+    <section class="faq section-shell" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <p>자주 묻는 질문</p>
+        <h2 id="faq-title">방문 전 짧은 답</h2>
       </div>
       <div class="faq-list">
         <details open>
           <summary>예약 없이 방문해도 되나요?</summary>
-          <p>가능합니다. 다만 출발 전이나 도착 5분 전이라도 연락하면 현재 룸 상황과 이용 조건을 먼저 확인할 수 있습니다.</p>
+          <p>가능합니다. 다만 출발 전이나 도착 5분 전이라도 연락하면 현재 상황을 먼저 확인할 수 있습니다.</p>
         </details>
         <details>
           <summary>혼자 방문할 수 있나요?</summary>
-          <p>네, 1인 방문도 가능합니다. 인원과 도착 예정 시간을 알려주시면 됩니다.</p>
+          <p>네, 1인 방문도 가능합니다. 인원과 도착 예정 시간을 알려주세요.</p>
         </details>
         <details>
           <summary>이용 금액은 어디서 확인하나요?</summary>
-          <p>인원과 이용 조건에 따른 최종 금액은 방문 전에 안내합니다. 출발 전 연락 시 현재 상황과 함께 확인해 주세요.</p>
+          <p>인원과 이용 조건에 따른 최종 금액은 방문 전에 안내합니다.</p>
         </details>
         <details>
           <summary>기본 이용에 무엇이 포함되나요?</summary>
           <p>TC와 소주·맥주 무제한이 포함됩니다. 양주와 안주 구성은 문의 시 확인할 수 있습니다.</p>
         </details>
         <details>
-          <summary>주차할 수 있나요?</summary>
-          <p>무료 주차가 가능합니다. 차량으로 오실 경우 출발 전에 말씀해 주세요.</p>
-        </details>
-        <details>
           <summary>어떤 결제 방법을 이용할 수 있나요?</summary>
-          <p>현금·카드·계좌이체가 가능합니다. 결제 방법을 포함한 최종 이용 조건은 방문 전에 안내합니다.</p>
+          <p>현금·카드·계좌이체가 가능합니다.</p>
         </details>
       </div>
     </section>
 
-    <section class="contact-stage" aria-labelledby="contact-title">
-      <p>DIRECT CONTACT</p>
-      <h2 id="contact-title">출발 전에<br>한 줄만 남겨주세요.</h2>
-      <div class="contact-options">
-        <a href="tel:01026762894">
-          <span>전화</span>
-          <strong>010&#8209;2676&#8209;2894</strong>
-        </a>
-        <button type="button" data-copy="Ah88261" data-copy-label="카카오톡 ID Ah88261 복사">
-          <span>카카오톡</span>
-          <strong>Ah88261 복사</strong>
-        </button>
-        <a href="https://t.me/wnsrb001" target="_blank" rel="noopener noreferrer">
-          <span>텔레그램</span>
-          <strong>@wnsrb001</strong>
-        </a>
+    <section class="closing" aria-labelledby="contact-title">
+      <div>
+        <p>던힐 · 김실장 직통 안내</p>
+        <h2 id="contact-title">출발 전에 한 줄만 남겨주세요.</h2>
+      </div>
+      <div class="closing-links">
+        <a href="tel:01026762894"><span>전화</span><strong>010&#8209;2676&#8209;2894</strong></a>
+        <button type="button" data-copy="Ah88261" data-copy-label="카카오톡 ID Ah88261 복사"><span>카카오톡</span><strong>Ah88261 복사</strong></button>
+        <a href="https://t.me/wnsrb001" target="_blank" rel="noopener noreferrer"><span>텔레그램</span><strong>@wnsrb001</strong></a>
       </div>
     </section>
   </main>
@@ -352,7 +317,7 @@
   </footer>
 
   <nav class="floating-contact" aria-label="빠른 연락">
-    <a class="quick-phone" href="tel:01026762894" aria-label="신촌 셔츠룸 전화 연결">전화</a>
+    <a href="tel:01026762894" aria-label="신촌 셔츠룸 전화 연결">전화</a>
     <button class="quick-kakao" type="button" data-copy="Ah88261" data-copy-label="카톡" aria-label="카카오톡 ID Ah88261 복사">카톡</button>
     <a class="quick-telegram" href="https://t.me/wnsrb001" target="_blank" rel="noopener noreferrer" aria-label="텔레그램 연결">텔레</a>
   </nav>

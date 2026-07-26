@@ -1,22 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">р T ° XР</title>
   <desc id="desc">рэ 6И 7И Ьl ─Ї 2Д, XР @фе H┤</desc>
-  <rect width="1200" height="630" fill="#f1efe9"/>
-  <rect x="786" width="414" height="630" fill="#292927"/>
-  <line x1="78" y1="94" x2="710" y2="94" stroke="#d2cec6" stroke-width="2"/>
-  <text x="80" y="70" fill="#78695d" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">SINCHON ╖ DUNHILL</text>
-  <text x="72" y="282" fill="#222321" font-family="Arial, sans-serif" font-size="124" font-weight="300" letter-spacing="-11">р</text>
-  <text x="68" y="422" fill="#78695d" font-family="Georgia, serif" font-size="124" font-style="italic" letter-spacing="-10">T °</text>
-  <text x="80" y="516" fill="#222321" font-family="Arial, sans-serif" font-size="27" font-weight="700">XР ╖ @фе</text>
-  <text x="80" y="562" fill="#676762" font-family="Arial, sans-serif" font-size="22">рэ 6╖7И Ьl ─Ї 2Д</text>
-  <text x="850" y="96" fill="#a9876e" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">VISIT INFORMATION</text>
-  <line x1="850" y1="126" x2="1132" y2="126" stroke="#55534f" stroke-width="1"/>
-  <text x="850" y="201" fill="#aaa69f" font-family="Arial, sans-serif" font-size="17">OPEN</text>
-  <text x="850" y="242" fill="#ffffff" font-family="Georgia, serif" font-size="34" font-style="italic">18:0009:00</text>
-  <line x1="850" y1="282" x2="1132" y2="282" stroke="#55534f" stroke-width="1"/>
-  <text x="850" y="354" fill="#aaa69f" font-family="Arial, sans-serif" font-size="17">LOCATION</text>
-  <text x="850" y="395" fill="#ffffff" font-family="Georgia, serif" font-size="31">SINCHON 02 MIN</text>
-  <line x1="850" y1="436" x2="1132" y2="436" stroke="#55534f" stroke-width="1"/>
-  <text x="850" y="508" fill="#aaa69f" font-family="Arial, sans-serif" font-size="17">DIRECT CONTACT</text>
-  <text x="850" y="550" fill="#ffffff" font-family="Arial, sans-serif" font-size="27" font-weight="700">010-2676-2894</text>
+  <rect width="1200" height="630" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#40574e"/>
+  <line x1="78" y1="110" x2="1122" y2="110" stroke="#d8d9d4" stroke-width="2"/>
+  <text x="80" y="78" fill="#40574e" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3">SINCHON ╖ DUNHILL</text>
+  <text x="74" y="300" fill="#202422" font-family="Arial, sans-serif" font-size="122" font-weight="700" letter-spacing="-10">р T °</text>
+  <text x="80" y="374" fill="#656b67" font-family="Arial, sans-serif" font-size="29">XР ╖ @фе ┴╡ H┤</text>
+  <rect x="78" y="438" width="1044" height="112" fill="#202724"/>
+  <text x="118" y="482" fill="#aab8b2" font-family="Arial, sans-serif" font-size="17">LOCATION</text>
+  <text x="118" y="523" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="700">рэ 6╖7И Ьl ─Ї 2Д</text>
+  <line x1="584" y1="458" x2="584" y2="530" stroke="#515b56" stroke-width="1"/>
+  <text x="632" y="482" fill="#aab8b2" font-family="Arial, sans-serif" font-size="17">OPEN</text>
+  <text x="632" y="523" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="700">ф| 18:0009:00</text>
 </svg>
