@@ -375,12 +375,14 @@ body {
 
 .contact-ribbon a,
 .contact-ribbon button {
+  box-sizing: border-box;
+  height: 44px;
   min-height: 44px;
   padding: 0 1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.2;
+  line-height: 1;
   border: 1px solid #4d4a45;
   text-decoration: none;
 }
